@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/assignment2_item"
+            android:icon="@drawable/ic_baseline_cloud_queue_24px"
+            android:title="@string/Assignment2"
+            />
+
+        <item
+            android:id="@+id/assignment3_item"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/Assignment3"
+            />
+
+    </group>
+
+
+</menu>

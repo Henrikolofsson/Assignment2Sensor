@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Assignment2</string>
+    <string name="weather">Weather</string>
+    <string name="humidity">Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="pressure">Pressure</string>
+    <string name="API">API</string>
+    <string name="sensors">Sensor</string>
+    <string name="rvTemp">Temperature: </string>
+    <string name="rvHumi">Humidity: </string>
+    <string name="rvPress">Pressure: </string>
+    <string name="degrees">°c</string>
+    <string name="hektoPascal">hPa</string>
+    <string name="getresults">GET RESULTS</string>
+    <string name="volley">Volley</string>
+    <string name="asynctask">Async Task</string>
+    <string name="Assignment2">Assignment 2</string>
+    <string name="Assignment3">Assignment 3</string>
+    <string name="screenbrightness">ScreenBrightness</string>
+    <string name="systembrightness">SystemBrightness</string>
+    <string name="lowBrightness">Low</string>
+    <string name="lowMediumBrightness">Low-Medium</string>
+    <string name="mediumBrightness">Medium</string>
+    <string name="mediumHighBrightness">Medium-High</string>
+    <string name="highBrightness">High</string>
+    <string name="flashlightOn">Flashlight on</string>
+    <string name="flashlightOff">Flashlight off</string>
+    <string name="yourpreference">Your preference is: </string>
+    <string name="ScreenBrightness">ScreenBrightness</string>
+    <string name="SystemBrightness">SystemBrightness</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

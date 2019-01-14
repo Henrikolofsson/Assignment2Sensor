@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.BrightnessFragment">
+
+
+    <TextView
+        android:id="@+id/tvScreenBrightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/screenbrightness" />
+
+    <SeekBar
+        android:id="@+id/sbScreenBrightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvSystemBrightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/systembrightness" />
+
+    <SeekBar
+        android:id="@+id/sbSystemBrightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgBrightness"
+        android:layout_width="match_parent"
+        android:layout_height="92dp">
+
+        <RadioButton
+            android:id="@+id/rbScreenBrightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ScreenBrightness" />
+
+        <RadioButton
+            android:id="@+id/rbSystemBrightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/SystemBrightness" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvScreenPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/yourpreference" />
+
+    <TextView
+        android:id="@+id/tvSystemPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yourpreference" />
+
+    <TextView
+        android:id="@+id/tvLightValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvSystemBrightness2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvWindowBrightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
